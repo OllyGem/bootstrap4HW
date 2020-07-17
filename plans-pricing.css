@@ -1,0 +1,53 @@
+
+.card{
+    width: 100%;
+}
+
+.card-header{
+    background-color: transparent;
+}
+
+.list-group-item{
+    background-color: transparent;
+}
+
+.card-footer{
+    background-color: transparent;
+}
+
+
+.business{
+    background-color: #005bea !important;
+}
+
+/* @media (max-width:1240px){
+    .container{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    .plans-pricing{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2em;
+        margin: auto;
+        width: 90%;
+    }
+}
+
+@media (max-width:770px){
+    .container{
+        display: block;
+        margin: auto;
+        width: 90%;
+    }
+    .plans-pricing{
+
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2em;
+        margin: auto;
+        width: 90%;
+    }
+} */
+

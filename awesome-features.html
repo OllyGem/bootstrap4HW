@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Appico Features</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="awesome-features.css">
+
+</head>
+<body>
+
+    <div id="features-wrapper">
+        <section id="features" class="container"> 
+            <header class="text-center p-4 mb-n3">
+                <h1 class="font-weight-bold h3">Awesome Features</h1>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </header>
+
+            <div class="row">
+
+                <ul class="col-md text-md-right list-group mt-5 ">
+                    <li class="list-group-item mb-5 border-top-0">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Responsive design </h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                    </li>
+                    <li class="list-group-item active mb-5">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Bootstrap 4</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                        <a href="" data-toggle="modal" data-target="#order-modal" class="btn btn-info btn-sm btn-block "> 
+                            Buy NOW
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Cross browser support</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                    </li>
+                </ul>
+
+                <figure class="col d-none d-lg-block">
+                    <img class="img-fluid p-4 ml-n2" src="https://html.dynamiclayers.net/at/appico/img/feature-moc.png" alt="phone">
+                </figure>
+
+                <ul class="col list-group mt-5" >
+                    <li class="list-group-item mb-5 border-top-0">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Simple frendly interface</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                    </li>
+                    <li class="list-group-item mb-5">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Personalized user support</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                        <a href="" data-toggle="modal" data-target="#try-modal" class="btn btn-light btn-sm btn-block"> 
+                            Try NOW
+                        </a>
+                    </li>
+                    <li class="list-group-item">
+                        <h2 class="text-uppercase h5 font-weight-bold mb-3">Great community</h2>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is the typesetting industry.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+   </div>
+
+   <!-- The Modal -->
+<div class="modal fade" id="order-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Order details</h4>
+          <i type="button" class="far fa-times-circle h3" class="close" data-dismiss="modal"></i>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="form-group ">
+                    <label for="name">Fullname:</label>
+                    <input type="text" class="form-control" placeholder="Enter your fullname" id="fullname">
+                  </div>
+
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control" placeholder="Enter email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone number:</label>
+                    <input type="text" class="form-control form-control-lg" placeholder="Enter phone (+373) xx-xx-xx-xx" id="phone">
+                  </div>
+
+                <div class="form-group form-check">
+
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> 
+                    I agree with <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    terms
+                      </a>
+                  </label>
+
+                  <div class="collapse" id="collapseExample">
+                        <ol class="card card-body pl-5">
+                            <li>Lorem, ipsum.</li>
+                            <li>Provident, dolore?</li>
+                            <li>Aliquam, vel.</li>
+                            <li>Facilis, ipsam.</li>
+                            <li>Fugiat, architecto?</li>
+                        </ol>
+                  </div>
+
+                </div>
+                <button type="submit" class="btn btn-primary btn-md btn-block rounded-pill">ORDER</button>
+              </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+          footer
+        </div> -->
+  
+      </div>
+    </div>
+ </div>
+
+
+
+
+   <!-- The Modal -->
+   <div class="modal fade" id="try-modal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <h4 class="modal-title">Try details</h4>
+          <i type="button" class="far fa-times-circle h3" class="close" data-dismiss="modal"></i>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <form action="/action_page.php">
+                <div class="form-group ">
+                    <label for="name">Fullname:</label>
+                    <input type="text" class="form-control" placeholder="Enter your fullname" id="fullname">
+                  </div>
+
+                <div class="form-group">
+                  <label for="email">Email address:</label>
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter email" id="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone number:</label>
+                    <input type="text" class="form-control" placeholder="Enter phone (+373) xx-xx-xx-xx" id="phone">
+                  </div>
+
+                <div class="form-group form-check">
+
+                  <label class="form-check-label">
+                    <input class="form-check-input" type="checkbox"> 
+                    I agree with <a class="" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                    terms
+                      </a>
+                  </label>
+
+                  <div class="collapse" id="collapseExample">
+                        <ol class="card card-body pl-5">
+                            <li>Lorem, ipsum.</li>
+                            <li>Provident, dolore?</li>
+                            <li>Aliquam, vel.</li>
+                            <li>Facilis, ipsam.</li>
+                            <li>Fugiat, architecto?</li>
+                        </ol>
+                  </div>
+                  
+                </div>
+                <button type="submit" class="btn btn-primary btn-md btn-block rounded-pill">TRY</button>
+              </form>
+        </div>
+  
+        <!-- Modal footer -->
+        <!-- <div class="modal-footer">
+          footer
+        </div> -->
+  
+      </div>
+    </div>
+ </div> 
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+</body>
+</html>
